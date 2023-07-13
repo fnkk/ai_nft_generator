@@ -136,6 +136,7 @@ function App() {
 
         <div className="image">
           {!isWaiting && image ? (
+            // eslint-disable-next-line
             <img src={image} alt="AI generated image" />
           ) : isWaiting ? (
             <div className="image__placeholder">
